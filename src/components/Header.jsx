@@ -17,13 +17,13 @@ export function Header() {
         <div className="Search flex absolute right-[7%] w-[68%] h-[35%] border-b-[1px] border-slate-400">
           <IoSearchOutline className="absolute w-[20px] h-[20px] mt-3 text-[#696969]" />
           <li className="w-[40%] h-[100%] ml-[45%] flex justify-around list-none mt-3 ">
-            <h1 className="w-[200px] h-[100%] font-bold text-[#696969] text-[13px]">
+            <h1 className="w-[200px] h-[100%] font-bold text-[#696969] text-[13px] cursor-pointer --responsive--> md:text-[10px] md:w-[150px]">
               FUTURE MOTION BRASIL
             </h1>
-            <h1 className="w-[200px] h-[100%] font-bold text-[#696969] text-[13px]">
+            <h1 className="w-[200px] h-[100%] font-bold text-[#696969] text-[13px] cursor-pointer --responsive--> md:text-[10px] md:w-[150px]">
               FUTURE PROMAN
             </h1>
-            <h1 className="w-[200px] h-[100%] font-bold text-[#696969] text-[13px]">
+            <h1 className="w-[200px] h-[100%] font-bold text-[#696969] text-[13px] cursor-pointer --responsive--> md:text-[10px] md:w-[150px]">
               FUTURE ASIA
             </h1>
           </li>

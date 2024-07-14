@@ -1,7 +1,7 @@
 export function VideoPlayer(props) {
   return (
     <div>
-      <video className="w-[100%] h-[600px]" controls>
+      <video className="w-[100%] h-[75vh]" controls>
         <source src={props.src} type={props.type} />
         Your browser does not support the video tag.
       </video>

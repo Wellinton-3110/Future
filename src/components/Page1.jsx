@@ -104,7 +104,7 @@ export function Page1() {
 
   return (
     <div className="Body1 h-[100vh] w-[100vw] m-auto relative">
-      <div className="imgNumb1 absolute w-[300px] h-[300px] top-[-10%] left-[13%] --responsive--> md:w-[180px] md:h-[180px] md:top-[0] md:left-[10%]">
+      <div className="imgNumb1 absolute w-[300px] h-[300px] top-[-10%] left-[13%] --responsive--> md:w-[180px] md:h-[180px] md:top-[1] md:left-[10%]">
         <img src={future01} alt="imagem número 1" />
       </div>
       <div className="Number1 w-[75vw] h-[60vh] m-auto relative top-[55%] translate-y-[-50%] border border-white border-l-0 border-r-0 --responsive--> md:w-[85vw] ">
