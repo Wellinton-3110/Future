@@ -1,5 +1,5 @@
 import "../css/footer.css";
-import footLogo2 from "../img/futureLogoFoot.png";
+import zeniteLogoFooter from "../img/zeniteLogoFooter.png";
 import { Map } from "../components/Map";
 import { useState, useEffect } from "react";
 import { MapModal } from "./MapModal";
@@ -47,15 +47,12 @@ export function Footer() {
       <div className="w-[80vw] h-[80vh] m-auto p-5 relative top-[5%] bg-gradient-to-r from-[#286993] to-[#41BDBA] md:w-[90vw]">
         <section className="footBody flex">
           {/* --------------logo---------------- */}
-          <div className="Logo2 w-[192px] h-[62px] absolute z-10 left-[5vw] top-[3vh]">
+          <div className="Logo2 w-[250px] h-[300px] absolute z-10 left-[4vw]">
             <img
-              src={footLogo2}
+              src={zeniteLogoFooter}
               alt="logomarca rodapé"
-              className="h-[50px] w-[190px]"
+              className="h-[100px] w-[210px]"
             />
-            <h3 className="w-[188px] mt-1 text-[10px] text-white text-center md:font-bold md:text-[7px]">
-              ENGENHARIA PARA ALÉM DA TÉCNICA
-            </h3>
           </div>
 
           {/* ---------------Sede------------- */}
@@ -73,17 +70,17 @@ export function Footer() {
               Lisboa, Portugal
             </h2>
 
-            <div className="flex absolute z-10 left-[15%] top-[60%] max-w-[250px]">
-              <button className="w-[100px] h-[28px] flex mr-[10px] items-center justify-center bg-white rounded-full text-[14px] text-[#41BDBA] font-mono --responsive--> tall:text-[12px] tall:w-[80px] tall:h-[25px]">
+            <div className="flex absolute left-[15%] top-[60%] w-[210px] h-[30px]">
+              <div className="absolute top-[15%] w-[100px] cursor-pointer h-[28px] flex mr-[10px] items-center justify-center bg-white rounded-full text-[14px] text-[#41BDBA] font-mono --responsive--> tall:text-[12px] tall:w-[80px] tall:h-[25px]">
                 <h3>CONTATOS</h3>
-              </button>
+              </div>
 
-              <button
-                onClick={openModal}
-                className="w-[100px] h-[28px] flex items-center justify-center bg-white rounded-full text-[14px] text-[#41BDBA] font-mono --responsive--> tall:text-[12px] tall:w-[80px] tall:h-[25px]"
+              <div
+                onClick=""
+                className="absolute top-[15%] left-[50%] w-[100px] cursor-pointer h-[28px] flex items-center justify-center bg-white rounded-full text-[14px] text-[#41BDBA] font-mono --responsive--> tall:text-[12px] tall:w-[80px] tall:h-[25px]"
               >
                 <h3>VER NO MAPA</h3>
-              </button>
+              </div>
             </div>
 
             <div className="w-[280px] h-[170px] absolute z-10 left-[0vw] bottom-[-5%] --responsive--> md:hidden">

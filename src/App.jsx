@@ -5,6 +5,7 @@ import { Header } from "./components/Header";
 import { Page1 } from "./components/Page1";
 import { BodySlider } from "./components/BodySlider";
 import { Footer } from "./components/Footer";
+import { Certificacoes } from "./components/Certificacoes";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
       <BodySlider />
       <Page1 />
+      <Certificacoes />
       <Footer />
     </div>
   );
