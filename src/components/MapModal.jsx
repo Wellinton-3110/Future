@@ -7,7 +7,7 @@ export function MapModal() {
   return (
     <div className="">
       <section>
-        <MapContainer
+        {/* <MapContainer
           center={position}
           zoom={16}
           style={{
@@ -24,7 +24,7 @@ export function MapModal() {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           />
           <Marker position={position}></Marker>
-        </MapContainer>
+        </MapContainer> */}
       </section>
     </div>
   );

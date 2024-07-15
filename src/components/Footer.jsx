@@ -47,18 +47,18 @@ export function Footer() {
       <div className="w-[80vw] h-[80vh] m-auto p-5 relative top-[5%] bg-gradient-to-r from-[#286993] to-[#41BDBA] md:w-[90vw]">
         <section className="footBody flex">
           {/* --------------logo---------------- */}
-          <div className="Logo2 w-[250px] h-[300px] absolute z-10 left-[4vw]">
+          <div className="w-[250px] h-[300px] absolute z-10 left-[4vw]">
             <img
               src={zeniteLogoFooter}
               alt="logomarca rodapé"
-              className="h-[100px] w-[210px]"
+              className="h-[100px] w-[210px] --absolute--> md:absolute md:w-[200px] md:h-[70px] md:left-[50vw] md:translate-x-[-100%]"
             />
           </div>
 
           {/* ---------------Sede------------- */}
           <div className="Main-Sede flex flex-col w-[350px] h-[355px] text-white text-center font-medium absolute z-10 left-[22vw] top-[3vh] --responsive--> md:flex md:h-[155px] md:w-[90vw] md:left-0 md:top-[10vh]">
             <h1 className="whiteLine flex items-center mb-[70px] md:mb-[20px]">
-              SEDE DO GRUPO FUTURE
+              SEDE DO GRUPO ZENITE
             </h1>
             <h2 className="text-left text-[15px] font-light mb-2 md:text-[11px] md:mb-1 ----> tall:mb-0">
               Alameda Fernão Lopes, nº 16 – 11º Piso
@@ -76,7 +76,7 @@ export function Footer() {
               </div>
 
               <div
-                onClick=""
+                onClick={openModal}
                 className="absolute top-[15%] left-[50%] w-[100px] cursor-pointer h-[28px] flex items-center justify-center bg-white rounded-full text-[14px] text-[#41BDBA] font-mono --responsive--> tall:text-[12px] tall:w-[80px] tall:h-[25px]"
               >
                 <h3>VER NO MAPA</h3>

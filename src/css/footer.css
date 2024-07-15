@@ -25,17 +25,6 @@
 /*tela média logo media*/
 
 @media only screen and (max-width: 1300px) {
-  .Logo2 {
-    width: 150px;
-    height: 52px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .Logo2 img {
-    width: 165px;
-    height: 35px;
-  }
-
   .Main-Sede {
     padding: 20px;
   }
