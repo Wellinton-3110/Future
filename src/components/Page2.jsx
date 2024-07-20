@@ -1,4 +1,3 @@
-import "../css/page2.css";
 import zenitePage2 from "../img/zenitePage2.png";
 import zenitePage2BG from "../img/zenitePage2BG.jpg";
 
@@ -9,16 +8,15 @@ export function Page2() {
         <img
           src={zenitePage2}
           alt="Imagem Página 2"
-          className="absolute top-[10%] left-[67%] w-[320px] h-[230px] ---responsive--> md:w-[200px] md:h-[130px]"
+          className="absolute top-[10%] left-[67%] w-[320px] h-[230px] ---responsive--> md:w-[200px] md:h-[130px] md:left-[57%] md:top-[5%]"
         />
 
         <div className="absolute left-[53%] top-[54%] translate-x-[-70%] translate-y-[-50%] z-10 w-[65%] h-[65%] p-5 flex flex-col text-left bg-white ---responsive--> md:overflow-auto">
-          <h1 className="mt-[10px] text-[45px] text-[#41BDBA] font-serif ml-[30px] mb-[30px] ---responsive--> md:text-[35px] sm:text-[20px]">
+          <h1 className="mt-[10px] text-[45px] text-[#41BDBA] font-serif ml-[30px] mb-[30px] after:w-[100px] after:h-[2px] after:block after:mt-5 after:bg-gradient-to-r from-[#286993] to-[#41BDBA] ---responsive--> md:text-[35px] sm:text-[15px] sm:font-light after:md:h-[1px] after:md:w-[70px]">
             CONCEITO FUTURE
           </h1>
 
-          <span className="w-[110px] h-[2px] bg-gradient-to-r from-[#286993] to-[#41BDBA] ml-[30px] mb-[30px] ---responsive--> md:w-[90px] md:h-[1px] md:mb-[20px] sm:w-[70px]"></span>
-          <p className="ml-[30px] text-[18px] text-[#696969] ---responsive--> md:text-[14px] sm:text-[10px]">
+          <p className="ml-[30px] text-[18px] text-[#696969] ---responsive--> md:text-[14px] sm:text-[10px] ">
             O conceito FUTURE surge para reinventar a forma de gerir e praticar
             o negócio Engenharia e para a posicionar no nível mais elevado da
             cadeia de valor. Olhar e gerir a engenharia como um negócio, mas com
