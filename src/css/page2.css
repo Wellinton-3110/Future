@@ -1,0 +1,10 @@
+.Page2::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  display: block;
+  background-image: url("../img/zenitePage2BG.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 88vh;
+  background-position-y: 13vh;
+}

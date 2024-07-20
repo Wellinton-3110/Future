@@ -1,6 +1,6 @@
 import "../index.css";
 import "../css/page1.css";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 
 import future01 from "../img/future01.png";
 
@@ -103,7 +103,7 @@ export function Page1() {
   }, []);
 
   return (
-    <div className="Body1 h-[100vh] w-[100vw] m-auto relative">
+    <div className="Body1 h-[100vh] w-[100vw] relative">
       <div className="imgNumb1 absolute w-[300px] h-[300px] top-[-10%] left-[13%] --responsive--> md:w-[180px] md:h-[180px] md:top-[1] md:left-[10%]">
         <img src={future01} alt="imagem número 1" />
       </div>
