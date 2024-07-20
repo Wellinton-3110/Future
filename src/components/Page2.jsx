@@ -5,14 +5,14 @@ import zenitePage2BG from "../img/zenitePage2BG.jpg";
 export function Page2() {
   return (
     <div className="flex flex-col relative">
-      <div className="Page2 w-[100vw] h-[90vh] bg-slate-100 relative">
+      <div className="Page2 w-[100vw] h-[90vh] bg-slate-100 relative ">
         <img
           src={zenitePage2}
           alt="Imagem Página 2"
           className="absolute top-[10%] left-[67%] w-[320px] h-[230px] ---responsive--> md:w-[200px] md:h-[130px]"
         />
 
-        <div className="absolute left-[53%] top-[54%] translate-x-[-70%] translate-y-[-50%] z-10 w-[65%] h-[65%] p-5 flex flex-col text-left bg-white ---responsive-->">
+        <div className="absolute left-[53%] top-[54%] translate-x-[-70%] translate-y-[-50%] z-10 w-[65%] h-[65%] p-5 flex flex-col text-left bg-white ---responsive--> md:overflow-auto">
           <h1 className="mt-[10px] text-[45px] text-[#41BDBA] font-serif ml-[30px] mb-[30px] ---responsive--> md:text-[35px] sm:text-[20px]">
             CONCEITO FUTURE
           </h1>
