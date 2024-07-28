@@ -5,8 +5,8 @@ const VideoPlayer = () => (
   <ReactPlayer
     width="100%"
     height="100%"
-    url="/Future/futureVideo.mp4"
-    muted={true} // Inicia o vídeo sem som
+    url="/Zenite/futureVideo.mp4"
+    muted={true}
     controls={true}
     playing={true}
   />
