@@ -1,10 +1,15 @@
-export function VideoPlayer(props) {
-  return (
-    <div>
-      <video className="w-[100%] h-[75vh]" controls>
-        <source src={props.src} type={props.type} />
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  );
-}
+import React from "react";
+import ReactPlayer from "react-player";
+
+const VideoPlayer = () => (
+  <ReactPlayer
+    width="100%"
+    height="100%"
+    url="/Future/futureVideo.mp4"
+    muted={true} // Inicia o vídeo sem som
+    controls={true}
+    playing={true}
+  />
+);
+
+export default VideoPlayer;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useKeenSlider } from "keen-slider/react";
-import { VideoPlayer } from "./VideoPlayer";
+import VideoPlayer from "./VideoPlayer";
 import SliderImg from "../img/SliderImg.jpg";
 import "keen-slider/keen-slider.min.css";
 import "../css/style.css";
@@ -35,11 +35,8 @@ export function BodySlider() {
             </div>
           </div>
           <div className="keen-slider__slide number-slide2">
-            <div className="bg-white w-[86%] h-[80%] absolute left-[7vw]">
-              <VideoPlayer
-                src="../../public/futureVideo.mp4"
-                type="video.mp4"
-              />
+            <div className="w-[86%] h-[80%] absolute left-[7vw]">
+              <VideoPlayer />
             </div>
           </div>
         </div>
