@@ -1,7 +1,8 @@
 import "../css/footer.css";
 import zeniteLogoFooter from "../img/zeniteLogoFooter.png";
+import { useState, useEffect, useContext } from "react";
+import { MyContext } from "../App.jsx";
 import { Map } from "../components/Map";
-import { useState, useEffect } from "react";
 import { MapModal } from "./MapModal";
 import { CgCloseR } from "react-icons/cg";
 import { FaLinkedinIn } from "react-icons/fa";

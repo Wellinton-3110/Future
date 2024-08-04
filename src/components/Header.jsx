@@ -4,10 +4,13 @@ import "../index.css";
 import { Idiomas } from "./Idiomas";
 import { Header2 } from "./Header2";
 
-export function Header() {
+export function Header(props) {
   return (
     <>
-      <div className="Header h-[23vh] w-[100vw] flex relative">
+      <div
+        ref={props.navBarRef}
+        className="Header h-[23vh] w-[100vw] flex relative"
+      >
         <div className="Logo absolute w-[18%] h-[100%] left-[7%] bg-white text-center">
           <img src={zeniteLogo} className="w-[100%] h-[100%] m-1" />
         </div>
