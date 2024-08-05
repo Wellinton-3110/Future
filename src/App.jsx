@@ -59,7 +59,7 @@ function App() {
     <div className="Page flex flex-col">
       <MyContext.Provider value={{ navBarRef, scrollToNav }}>
         <ArrowDown />
-        {scrollY > 2000 ? <ArrowTop /> : ""};
+        {scrollY > 2000 ? <ArrowTop /> : ""}
         {resize > 1500 ? <Header navBarRef={navBarRef} /> : <HeaderMenu />}
         <BodySlider />
         <Page1 />

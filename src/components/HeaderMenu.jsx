@@ -22,7 +22,7 @@ export function HeaderMenu() {
           <img
             src={zeniteImgMenu}
             alt="zenite logomarca"
-            className="absolute w-[300px] h-[160px] left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]"
+            className="absolute w-[300px] h-[160px] left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] --responsive--> sm:w-[200px] sm:h-[140px]"
           />
         </i>
         <i className="absolute w-[40px] h-[40px] right-[10%] top-[50%] translate-x-[-50%] translate-y-[-50%] flex items-center justify-center">
