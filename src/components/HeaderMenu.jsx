@@ -31,7 +31,7 @@ export function HeaderMenu() {
             id="item3"
             placeholder=" Pesquisar"
             type="text"
-            className="absolute hidden w-[200px] h-[35px] left-[-230px] shadow-md rounded-md transition-all"
+            className="absolute hidden w-[200px] h-[35px] left-[-230px] shadow-md rounded-md transition-all --responsive--> sm:w-[140px] sm:left-[-150px]"
           />
         </i>
       </div>
